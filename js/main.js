@@ -36,6 +36,7 @@ function reset() {
       properNumber = true;
     }
   }
+  document.querySelector('h3').textContent = `${num} x ${num}`;
   console.log(num);
   canvasStyle =`width:${(1/num)*100}%; height:${(1/num)*100}%; border: 1px solid lightgray; background: white;`;
   setCanvas(num);

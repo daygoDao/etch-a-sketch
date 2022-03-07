@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.canvas {
+  height: 500px;
+  width: 500px;
+  border: 5px dotted aquamarine;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.block {
+  width:  10;
+  height: 100%;
+  border: 2px solid red;
+}
